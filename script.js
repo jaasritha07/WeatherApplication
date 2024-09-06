@@ -10,7 +10,7 @@ function getWeather() {
     const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
     const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
 
-    fetch(currentWeatherUrl)
+    fetch(https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key})
         .then(response => response.json())
         .then(data => {
             displayWeather(data);
@@ -20,7 +20,7 @@ function getWeather() {
             alert('Error fetching current weather data. Please try again.');
         });
 
-    fetch(forecastUrl)
+    fetch(https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key})
         .then(response => response.json())
         .then(data => {
             displayHourlyForecast(data.list);
