@@ -1,5 +1,5 @@
 These project tells about weather Application by using HTML,CSS and JavaScript.
-This Weather Application is a simple web-based tool created using HTML, CSS, and JavaScript. It allows users to check the current weather conditions of different locations. The application provides real-time weather information, including temperature, humidity, wind speed, and more.
+This Weather Application is a simple web-based tool created using HTML, CSS, and JavaScript. It allows users to check the current weather conditions of different locations. The application provides real-time weather information.
 
 ## Technologies Used
 
